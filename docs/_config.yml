@@ -21,9 +21,8 @@
 title: Yan Xia
 email: yan.xia@aalto.fi
 description: >- # this means to ignore newlines until "baseurl:"
-  Yan Xia is a doctoral student at Aalto University, Finland, with a research interest in social networks, information spreading, 
-  and opinion dynamics.
-baseurl: /yanxxia # the subpath of your site, e.g. /blog
+  Homepage
+baseurl: /docs # the subpath of your site, e.g. /blog
 domain: yanxxia.github.io
 url: https://yanxxia.github.io # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: yanxxia
