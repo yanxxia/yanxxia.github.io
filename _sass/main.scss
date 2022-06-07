@@ -372,11 +372,12 @@ a.pj-link {
   text-decoration: underline;
   color: $dark-color;
   margin-right: 5px;
+  font-size: 103%;
 }
 
 a.pj-link:hover {
   text-decoration: underline;
-  color: $light-color;
+  color: $light-color !important;
 }
 
 .current {

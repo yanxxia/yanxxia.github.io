@@ -110,9 +110,9 @@ a.medium { color: #767474; }
 
 a.medium:hover { color: #A0A09F !important; }
 
-a.pj-link { text-decoration: underline; color: #2F2E2E; margin-right: 5px; }
+a.pj-link { text-decoration: underline; color: #2F2E2E; margin-right: 5px; font-size: 103%; }
 
-a.pj-link:hover { text-decoration: underline; color: #A0A09F; }
+a.pj-link:hover { text-decoration: underline; color: #A0A09F !important; }
 
 .current { color: #2F2E2E !important; }
 
