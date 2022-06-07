@@ -64,8 +64,6 @@ body { font-family: Georgia, serif; font-weight: 300; color: #767474; letter-spa
 
 .photos-div { width: 100%; overflow-x: scroll; white-space: nowrap; overflow-y: hidden; height: 365px; padding-top: 2px; }
 
-::-webkit-scrollbar { height: 2px; }
-
 .photo-div { display: inline-block; width: 300px; height: 350px; margin-right: 10px; }
 
 .photo { width: 300px; height: 300px; border: 1px solid #eeeeee; box-shadow: 2px 2px 6px #eeeeee; }
@@ -122,10 +120,10 @@ a.pj-link:hover { text-decoration: underline; color: #A0A09F; }
 
 .pic { width: 100%; }
 
-ul { list-style-type: '- '; padding: 0; padding-left: 15px; padding-top: 2px; margin: 0; font-size: 101%; line-height: 125%; }
+ul { list-style-type: '- '; padding: 0; padding-left: 15px; padding-top: 2px; margin: 0; font-size: 102%; line-height: 125%; }
 
-li { padding-left: 10px; padding-bottom: 7px; }
+li { padding-left: 10px; padding-bottom: 8px; }
 
-ol { padding: 0; padding-left: 20px; padding-top: 5px; margin: 0; font-size: 101%; line-height: 125%; }
+ol { padding: 0; padding-left: 20px; padding-top: 5px; margin: 0; font-size: 102%; line-height: 125%; }
 
-ol li { padding-bottom: 4px; }
+ol li { padding-bottom: 5px; }
