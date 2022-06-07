@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="shortcut icon" type="image/png" href="/assets/images/Xy.png">
+  </head>
+  <body>
+    <div class="header-div">
+      {% include navigation.html %}
+    </div>
+    {{ content }}
+    <div class="footer-div">
+        <p class='copyright'>&copy; 2022 by Yan Xia. Built with <a href="https://jekyllrb.com/">Jekyll</a>.</p>
+        {%- if site.twitter_username -%}
+        <div class='social-media'>
+          <a href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}"><svg class="svg-icon twitter"><use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use></svg> 
+          <span class="username">{{ site.twitter_username| escape }}</span></a>
+          </div>
+        {%- endif -%}
+        {%- if site.github_username -%}
+        <div class='social-media'><a href="https://github.com/{{ site.github_username| cgi_escape | escape }}">
+          <svg class="svg-icon github"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg> 
+          <span class="username">{{ site.github_username| escape }}</span></a>
+        </div>
+        {%- endif -%}
+    </div>
+  </body>
+</html>

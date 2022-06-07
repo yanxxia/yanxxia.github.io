@@ -1,0 +1,431 @@
+$header-font-stack: "Didot", Georgia, serif;
+$body-font-stack: Georgia, serif;
+// $body-font-stack: system-ui, -apple-system, Helvetica, sans-serif;
+$dark-color: #2F2E2E;
+$medium-color: #767474;
+$light-color: #A0A09F;
+$twitter-color: #1d9bf0;
+$border-color: #eeeeee;
+
+body {
+  font-family: $body-font-stack;
+  font-weight: 300;
+  color: $medium-color;
+  letter-spacing: 0.05px;
+}
+
+// Containers (main)
+.header-div {
+  font-family: $header-font-stack;
+  width: 69%;
+  margin-left: 15%;
+  margin-right: 16%;
+  margin-top: 31px;
+  margin-bottom: 50px;
+  color: $dark-color;
+  font-style: italic;
+  float: left;
+  letter-spacing: 0px;
+}
+
+.title-div {
+  font-size: 225%;
+  width: 40%;
+  float: left;
+}
+
+.label-div {
+  font-size: 120%;
+  width: 55%;
+  position: relative;
+  float: right;
+  margin-top: 15px;
+}
+
+.label {
+  padding-left: 10%;
+  float: right;
+}
+
+.intro-div {
+  font-size: 93%;
+  letter-spacing: 0.1px;
+  line-height: 150%;
+  width: 31%;
+  margin-left: 15.5%;
+  float: left;
+  color: $medium-color;
+}
+
+.pic-div {
+  width: 29%;
+  margin-left: 7.5%;
+  margin-top: 4px;
+  float: left;
+}
+
+.footer-div {
+  width: 70%;
+  padding-left: 15%;
+  padding-right: 15%;
+  float: left;
+  margin-top: 45px;
+  margin-bottom: 15px;
+}
+
+.copyright {
+  font-size: 82%;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.social-media {
+  font-size: 80%;
+  width: 65px;
+  margin: 0 auto;
+}
+
+// Containers (resume)
+.main-div {
+  margin-left: 15.5%;
+  margin-right: 15.5%;
+  width: 69%;
+}
+
+.section-title {
+  font-family: $header-font-stack;
+  font-size: 105%;
+  font-style: italic;
+  // text-decoration: underline;
+  margin-top: 5px;
+  margin-bottom: 12px;
+  float: left;
+  width: 100%;
+}
+
+.entry-div {
+  font-size: 90%;
+  color: $dark-color;
+}
+
+.time-div {
+  width: 23%;
+  height: 100%;
+  float: left;
+  font-style: italic;
+}
+
+.content-div {
+  width: 77%;
+  float: left;
+}
+
+.content {
+  margin-bottom: 5px;
+}
+
+.content.main {
+  font-weight: 800;
+}
+
+.content.last {
+  margin-bottom: 20px;
+}
+
+.content.section-last {
+  margin-bottom: 40px;
+}
+
+.description {
+  color: $light-color;
+  font-size: 92%;
+}
+
+// Containers (projects)
+.pj-title {
+  width: 100%;
+  float: left;
+  color: $dark-color;
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 10px;
+  margin-bottom: 3px;
+}
+
+.pj-description {
+  width: 100%;
+  float: left;
+  color: $light-color;
+  font-size: 85%;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.pj-image {
+  float: left;
+  margin-bottom: 15px;
+}
+
+.pj-image.cascade {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.pj-image.virality {
+  width: 66%;
+  margin-left: 17%;
+  margin-right: 17%;
+}
+
+.pj-image.toxicity {
+  width: 66%;
+  margin-left: 17%;
+  margin-right: 17%;
+}
+
+.pj-image.ccip {
+  width: 82%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.pj-content-div {
+  color: $dark-color;
+  font-size: 85%;
+  margin-bottom: 20px;
+  line-height: 120%;
+}
+
+.pj-content-div.last {
+  margin-bottom: 50px;
+}
+
+.pj-subtitle {
+  font-size: 105%;
+  color: $light-color;
+  font-style: italic;
+  margin-bottom: 8px;
+}
+
+.pj-links {
+  margin-top: 5px;
+}
+
+// Containers (gallery)
+.gallery-text {
+  color: $dark-color;
+  font-size: 85%;
+  margin-bottom: 50px;
+}
+
+.photos-div {
+  width: 100%;
+  overflow-x: scroll;
+  white-space: nowrap;
+  overflow-y: hidden;
+  height: 365px;
+  padding-top: 2px;
+}
+
+::-webkit-scrollbar {
+  height: 2px;
+}
+
+.photo-div {
+  display: inline-block;
+  width: 300px;
+  height: 350px;
+  margin-right: 10px;
+}
+
+.photo {
+  width: 300px;
+  height: 300px;
+  border: 1px solid $border-color;
+  box-shadow: 2px 2px 6px $border-color;
+}
+
+.photo-time {
+  text-align: center;
+  font-size: 80%;
+  color: $light-color;
+  margin-top: 5px;
+  margin-bottom: 3px;
+}
+
+.photo-place {
+  text-align: center;
+  font-size: 80%;
+  color: $medium-color;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.design-div {
+  width: 100%;
+  float: left;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.design-div.last {
+  margin-bottom: 45px;
+}
+
+.design.cxaalto {
+  border: 1px solid $border-color;
+  box-shadow: 2px 2px 6px $border-color;
+  width: 20%;
+  float: left;
+}
+
+.design.ss {
+  display: inline-block;
+  float: right;
+}
+
+.design.ss.tshirt {
+  width: 28%;
+}
+
+.design.ss.invitation {
+  width: 32%;
+}
+
+.design-time {
+  width: 70%;
+  float: left;
+  font-size: 85%;
+  color: $light-color;
+  margin-top: 7.8%;
+  margin-bottom: 3px;
+  margin-left: 2%;
+}
+
+.design-description-div.ss {
+  width: 38%;
+  float: left;
+  margin-top: 26%;
+}
+
+.design-time.ss {
+  width: 100%;
+}
+
+.design-description {
+  width: 70%;
+  float: left;
+  font-size: 85%;
+  color: $dark-color;
+  margin-left: 2%;
+  margin-top: 0px;
+}
+
+.design-description.ss {
+  width: 100%;
+}
+
+.calligraphy-div {
+  width: 100%;
+  overflow-x: scroll;
+  white-space: nowrap;
+  overflow-y: hidden;
+  height: 450px;
+  padding-top: 3px;
+}
+
+.calligraphy {
+  height: 400px;
+  display: inline-block;
+  margin-right: 15px;
+  border: 1px solid $border-color;
+  box-shadow: 2px 2px 6px $border-color;
+}
+
+// Links
+a {
+  color: $light-color;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $dark-color !important;
+  text-decoration: none;
+}
+
+a.dark {
+  color: $dark-color;
+}
+
+a.dark:hover {
+  color: $light-color !important;
+}
+
+a.medium {
+  color: $medium-color;
+}
+
+a.medium:hover {
+  color: $light-color !important;
+}
+
+a.pj-link {
+  text-decoration: underline;
+  color: $dark-color;
+  margin-right: 5px;
+}
+
+a.pj-link:hover {
+  text-decoration: underline;
+  color: $light-color;
+}
+
+.current {
+  color: $dark-color !important;
+}
+
+// Pictures and icons
+.svg-icon {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  fill: $dark-color;
+  padding-right: 1px;
+  padding-bottom: 3px;
+  vertical-align: text-top;
+}
+
+.pic {
+  width: 100%;
+}
+
+// Lists
+ul {
+  list-style-type: '- ';
+  padding: 0;
+  padding-left: 15px;
+  padding-top: 2px;
+  margin: 0;
+  font-size: 101%;
+  line-height: 125%;
+}
+
+li {
+  padding-left: 10px;
+  padding-bottom: 7px;
+}
+
+ol {
+  padding: 0;
+  padding-left: 20px;
+  padding-top: 5px;
+  margin: 0;
+  font-size: 101%;
+  line-height: 125%;
+}
+
+ol li {
+  padding-bottom: 4px;
+}

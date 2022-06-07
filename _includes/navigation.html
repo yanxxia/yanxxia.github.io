@@ -1,0 +1,10 @@
+<nav>
+  <div class="title-div">Yan Xia</div>
+  <div class="label-div">
+  {% for item in site.data.navigation %}
+    <a href="{{ item.link }}" {% if page.url == item.link %}class="current label"{% else %}class="label"{% endif %}>
+      {{ item.name }}
+    </a>
+  {% endfor %}
+  </div>
+</nav>

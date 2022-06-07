@@ -20,18 +20,20 @@
 
 title: Yan Xia
 email: yan.xia@aalto.fi
-description: >- # this means to ignore newlines until "baseurl:"
-  Homepage
+# description: >- # this means to ignore newlines until "baseurl:"
+#   Homepage
 baseurl: "" # the subpath of your site, e.g. /blog
 domain: yanxxia.github.io
 url: https://yanxxia.github.io # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: yanxxia
 github_username: yanxxia
+flickr_username: yanxxia
 
 # Build settings
-theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
