@@ -6,6 +6,7 @@ $medium-color: #767474;
 $light-color: #A0A09F;
 $twitter-color: #1d9bf0;
 $border-color: #eeeeee;
+$tablet-width: 768px;
 
 body {
   font-family: $body-font-stack;
@@ -30,21 +31,23 @@ body {
 
 .title-div {
   font-size: 225%;
-  width: 40%;
+  width: 25%;
   float: left;
+  margin-right: 20%;
 }
 
 .label-div {
   font-size: 120%;
   width: 55%;
-  position: relative;
-  float: right;
+  float: left;
   margin-top: 15px;
 }
 
 .label {
+  width: 15%;
   padding-left: 10%;
-  float: right;
+  float: left;
+  text-align: right;
 }
 
 .intro-div {
@@ -59,15 +62,15 @@ body {
 
 .pic-div {
   width: 29%;
-  margin-left: 7.5%;
+  margin-left: 7%;
   margin-top: 4px;
   float: left;
 }
 
 .footer-div {
   width: 70%;
-  padding-left: 15%;
-  padding-right: 15%;
+  margin-left: 15%;
+  margin-right: 15%;
   float: left;
   margin-top: 45px;
   margin-bottom: 15px;
@@ -110,7 +113,8 @@ body {
 }
 
 .time-div {
-  width: 23%;
+  width: 21%;
+  margin-right: 2%;
   height: 100%;
   float: left;
   font-style: italic;
@@ -427,3 +431,55 @@ ol {
 ol li {
   padding-bottom: 5px;
 }
+
+// Mobile settings
+@media only screen and (max-width: $tablet-width) {
+  .header-div {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 15px;
+    margin-bottom: 18px;
+    width: 90%; 
+  }
+
+  .footer-div {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 30px;
+    width: 90%;  
+  }
+
+  .title-div {
+    width: 60%;
+    margin-right: 5.5%;
+  }
+
+  .label-div {
+    margin-top: 5px;
+    width: 30%;
+  }
+
+  .label {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  .intro-div {
+    width: 89%;
+    margin-left: 5.5%; 
+    margin-right: 5.5%;   
+  }
+
+  .pic-div {
+    width: 89%;
+    margin-left: 5.5%; 
+    margin-right: 5.5%;    
+  }
+
+  .main-div {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+  }
+}
+
