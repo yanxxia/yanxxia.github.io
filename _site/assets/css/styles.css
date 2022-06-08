@@ -24,7 +24,7 @@ body { font-family: Georgia, serif; font-weight: 300; color: #767474; letter-spa
 
 .entry-div { font-size: 90%; color: #2F2E2E; }
 
-.time-div { width: 21%; margin-right: 2%; height: 100%; float: left; font-style: italic; }
+.time-div { width: 20%; margin-right: 3%; height: 100%; float: left; font-style: italic; }
 
 .content-div { width: 77%; float: left; }
 
@@ -135,4 +135,6 @@ ol li { padding-bottom: 5px; }
   .label { width: 100%; margin-bottom: 5px; }
   .intro-div { width: 89%; margin-left: 5.5%; margin-right: 5.5%; }
   .pic-div { width: 89%; margin-left: 5.5%; margin-right: 5.5%; }
-  .main-div { margin-left: 5%; margin-right: 5%; width: 90%; } }
+  .main-div { margin-left: 5%; margin-right: 5%; width: 90%; }
+  .design-time { margin-top: 0%; }
+  .design-description-div.ss { margin-top: 9%; } }

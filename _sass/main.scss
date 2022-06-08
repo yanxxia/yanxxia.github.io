@@ -113,8 +113,8 @@ body {
 }
 
 .time-div {
-  width: 21%;
-  margin-right: 2%;
+  width: 20%;
+  margin-right: 3%;
   height: 100%;
   float: left;
   font-style: italic;
@@ -480,6 +480,14 @@ ol li {
     margin-left: 5%;
     margin-right: 5%;
     width: 90%;
+  }
+
+  .design-time {
+    margin-top: 0%;
+  }
+
+  .design-description-div.ss {
+    margin-top: 9%;
   }
 }
 
