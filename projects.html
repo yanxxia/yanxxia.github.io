@@ -5,29 +5,123 @@ title: Yan Xia | Projects
 <div class="main-div">
   <div class="section-div">
     <div class="pj-title-div">
-      <div class="pj-title">Identifying and Characterizing Depolarization-/Backfire-Triggering Content on Reddit</div>
+      <div class="pj-title">Are Users Depolarized in Reddit Political Discussions?</div>
       <div class="pj-description">Data analysis, Aalto University, Apr 2023 - Present</div>
     </div>
-    <div class="pj-content-div last">
+    <div class="pj-content-div">
       <div class="content">
         <b>Xia, Yan</b>, <a href="https://tedhchen.com/" class="dark">Ted Hsuan Yun Chen</a>, <a href="https://users.aalto.fi/~kellerb1/"  class="dark">Barbara Keller</a>, and <a href="http://www.mkivela.com/" class="dark">Mikko Kivel&#228;</a>. In preparation.
       </div>
     </div>
-  </div>
-  <div class="section-div">
-    <div class="pj-title-div">
-      <div class="pj-title">Does cross-party interaction on Reddit lead to depolarization or backfire? </div>
-      <div class="pj-description">Data analysis, Aalto University & CENTAI, Dec 2022 - Present</div>
-    </div>
     <div class="pj-content-div last">
+      <div class="pj-subtitle">(Preliminary) Highlights</div>
       <div class="content">
-        <b>Xia, Yan</b>, <a href="http://www.corradomonti.com/" class="dark">Corrado Monti</a>, <a href="https://users.aalto.fi/~kellerb1/"  class="dark">Barbara Keller</a>, and <a href="http://www.mkivela.com/" class="dark">Mikko Kivel&#228;</a>. In preparation.
+        <ul>
+          <li>Research question: <i>Are users depolarized in Reddit Political Discussions? If so, in what form does depolarization manifest, and how does it differ between subreddits?</i></li>
+          <li>Data: Posts on political topics in r/ChangeMyView, r/AskTrumpSupporters, r/AskALiberal, r/AskConservatives, r/askaconservative, r/politics, r/PoliticalDiscussion, etc.
+          <li>Method: A pipeline that combines <i>small-scale qualitative reading</i> and <i>large-scale quantitative coding using large language models (LLMs)</i>.</li>
+          <li>Findings:
+            <ul>
+              <li>Users <i>do get depolarized</i> in Reddit Political Discussions, manifested in at least five different ways: <i>finding common ground, better understanding a different view, acknowledging new perspective/information, re-evaluating own view, and changing own view</i>.</li>
+              <li>The frequency and types of manifested user depolarization largely differ between subreddits: for example, <i>depolarization occurs much more frequently in r/ChangeMyView</i> than in other subreddits, while <i>view change almost exclusively occurs in r/ChangeMyView</i>.</li>
+            </ul>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
   <div class="section-div">
     <div class="pj-title-div">
-      <div class="pj-title">Did the Russian invasion of Ukraine depolarize political discussions on Finnish social media?</div>
+      <div class="pj-title">What Predicts User Polarization in a Reddit Political Conversation?</div>
+      <div class="pj-description">Data analysis, Aalto University, Jun 2024 - Present</div>
+    </div>
+    <div class="pj-content-div">
+      <div class="content">
+        Goel, Hitesh, <b>Yan Xia</b>, and <a href="https://users.aalto.fi/~kellerb1/"  class="dark">Barbara Keller</a>. In preparation.
+      </div>
+    </div>
+    <div class="pj-content-div last">
+      <div class="pj-subtitle">(Preliminary) Highlights</div>
+      <div class="content">
+        <ul>
+          <li>Research question: What features of a political conversation on Reddit best predict if a user will get more polarized by it?</li>
+          <li>Data: Triads of <i>comment (C), reply (R), and reply of reply (R2)</i> in r/politics, where the comment (C) and the reply of reply (R2) are posted by the same user, while the comment (C) author and the reply (R) author likely support different political parties given their subreddit participation.</li>
+          <li>Method: Fitting a regression model where the predictors are the <i>comment (C) and reply (R) features (e.g., toxicity, emotions, politeness)</i>, and the outcome is an LLM-produced label of <i>whether the comment (C) author is more polarized at the reply of reply (R2) level</i>.</li>
+          <li>Finding: Comment (C) features seem to be more effective than reply (R) features in predicting user polarization at the reply of reply (R2) level, which suggests that the occurrence of polarization may be more closely related to the characteristics of the <i>polarized</i> user, than to those of the <i>polarizing</i> user.
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="section-div">
+    <div class="pj-title-div">
+      <div class="pj-title">Intergroup Dynamics in Reddit Political Discussions</div>
+      <div class="pj-description">Data analysis, Aalto University, Jun 2024 - Present</div>
+    </div>
+    <div class="pj-content-div">
+      <div class="content">
+        Wang, Longtao, <b>Yan Xia</b>, and <a href="https://users.aalto.fi/~kellerb1/"  class="dark">Barbara Keller</a>. In preparation.
+      </div>
+    </div>
+    <div class="pj-content-div last">
+      <div class="pj-subtitle">(Preliminary) Highlights</div>
+      <div class="content">
+        <ul>
+          <li>Research question: Do <i>supporters of opposing political figures</i> manifest different interaction dynamics from <i>supporters of opposing political parties</i> on Reddit?</li>
+          <li>Data: Comment-reply interactions in r/politics between <i>r/The_Donald</i> and <i>r/hillaryclinton</i> participants, and between <i>r/Republican</i> and <i>r/democrats</i> participants.</li>
+          <li>Method: Building interaction networks and comparing them to the corresponding random networks under the configuration model, to find out if intergroup interactions occur <i>more than expected (i.e., showing heterophily)</i> or <i>less than expected (i.e., showing homophily)</i> between each pair. </li>
+          <li>Finding: r/The_Donald and r/hillaryclinton participants interact with each other more often than expected in r/politics, while r/Republican and r/democrats interact less often than expected. This suggests that <i>supporters of opposing political figures may be more aggressive towards each other than supporters of opposing political parties</i>.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="section-div">
+    <div class="pj-title-div">
+      <div class="pj-title">K-Pop Fan Group Dynamics on YouTube</div>
+      <div class="pj-description">Data analysis, Aalto University, May 2024 - Present</div>
+    </div>
+    <div class="pj-content-div last">
+      <div class="content">
+        Lahti, Marjaana, <b>Yan Xia</b>, and <a href="https://users.aalto.fi/~kellerb1/"  class="dark">Barbara Keller</a>. In preparation.
+      </div>
+    </div>
+  </div>
+
+  <div class="section-div">
+    <div class="pj-title-div">
+      <div class="pj-title">User Behavior Change after Cross-Party Interactions on Reddit</div>
+      <div class="pj-description">Data analysis, Aalto University & CENTAI, Jan 2023 - May 2024</div>
+    </div>
+    <div class="pj-content-div">
+      <div class="pj-subtitle">Publications</div>
+      <div class="content">
+        <b>Xia, Yan</b>, <a href="http://www.corradomonti.com/" class="dark">Corrado Monti</a>, <a href="https://users.aalto.fi/~kellerb1/"  class="dark">Barbara Keller</a>, and <a href="http://www.mkivela.com/" class="dark">Mikko Kivel&#228;</a>. Integrated or Segregated? User Behavior Change after Cross-Party Interactions on Reddit. Accepted to ICWSM 2025.
+      </div>
+    </div>
+    <div class="pj-content-div last">
+      <div class="pj-subtitle">Highlights</div>
+      <div class="content">
+        <ul>
+          <li>Fostering interactions across the party line is regarded as an important strategy to break echo chambers. However, on real social media, <i>do cross-party interactions actually bring polarized users together</i>?</li>
+          <li>We inspected <i>how users change their community engagement after receiving a cross-party reply</i> in the U.S. politics discussion on Reddit. More specifically, we investigated if they <i>increase their activity in communities of the opposing party, or in communities of their own party</i>.</li>
+          <li>We found that:
+            <ul>
+              <li>Receiving a cross-party reply to a comment in a non-partisan discussion space is not significantly associated with increased out-party subreddit activity, unless the comment itself is already a reply to another comment;</li>
+              <li>Receiving a cross-party reply is significantly associated with increased in-party subreddit activity, but the effect is comparable to that of receiving a same-party reply.</li>
+            </ul>
+          </li>
+          <li>Our results suggest:
+            <ul>
+              <li><i>A highly conditional depolarization effect</i> following a cross-party interaction in spurring out-party community engagement, which is likely part of a more general social reinforcement dynamic;</li>
+              <li><i>No strong evidence of a backfire effect</i> indicated by either a more negative effect of a cross-party interaction in predicting increased out-party activity, or a more positive effect of a cross-party interaction in predicting increased in-party activity, compared with that of a same-party interaction.</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="section-div">
+    <div class="pj-title-div">
+      <div class="pj-title">Did the Russian Invasion of Ukraine Depolarize Political Discussions on Finnish Social Media?</div>
       <div class="pj-description">Data analysis, Aalto University, Mar 2022 - Aug 2023</div>
     </div>
     <img class="pj-image nato" src="assets/images/projects/nato.png" />
@@ -35,10 +129,10 @@ title: Yan Xia | Projects
       <div class="pj-subtitle">Publications</div>
       <div class="content">
         <ol>
-          <li><b>Xia, Yan</b>, Antti Gronow, Arttu Malkamäki, Tuomas Ylä-Anttila, <a href="https://users.aalto.fi/~kellerb1/"  class="dark">Barbara Keller</a>, and <a href="http://www.mkivela.com/" class="dark">Mikko Kivel&#228;</a>. The Russian invasion of Ukraine selectively depolarized the Finnish NATO discussion. Under review.</li>
-          <li>Antti Gronow, <b>Xia, Yan</b>, Arttu Malkamäki, Tuomas Ylä-Anttila, <a href="https://users.aalto.fi/~kellerb1/"  class="dark">Barbara Keller</a>, and <a href="http://www.mkivela.com/" class="dark">Mikko Kivel&#228;</a>. Do external threats decrease political polarization? Climate change and immigration discussions on Finnish Twitter after the Russian invasion of Ukraine. In preparation.</li>
+          <li><b>Xia, Yan</b>, Antti Gronow, Arttu Malkamäki, Tuomas Ylä-Anttila, <a href="https://users.aalto.fi/~kellerb1/"  class="dark">Barbara Keller</a>, and <a href="http://www.mkivela.com/" class="dark">Mikko Kivel&#228;</a>. (2024). The Russian invasion of Ukraine selectively depolarized the Finnish NATO discussion on Twitter. <i>EPJ Data Science, 13</i>(1), 1.</li>
+          <li>Gronow, Antti, <b>Yan Xia</b>, Arttu Malkamäki, Tuomas Ylä-Anttila, <a href="https://users.aalto.fi/~kellerb1/"  class="dark">Barbara Keller</a>, and <a href="http://www.mkivela.com/" class="dark">Mikko Kivel&#228;</a>. Do external threats decrease political polarization? Climate change and immigration discussions on Finnish Twitter after the Russian invasion of Ukraine. Under review.</li>
         </ol>
-        <div class="pj-links"><a href="https://arxiv.org/abs/2212.07861" class="pj-link">[Paper 1]</a><a href="{{ '/assets/files/nato_poster.pdf' | relative_url }}" class="pj-link">[Poster]</a></div>
+        <div class="pj-links"><a href="https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-023-00441-2" class="pj-link">[Paper 1]</a><a href="{{ '/assets/files/nato_poster.pdf' | relative_url }}" class="pj-link">[Poster]</a></div>
       </div>
     </div>
     <div class="pj-content-div last">
