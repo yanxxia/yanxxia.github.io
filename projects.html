@@ -17,7 +17,7 @@ title: Yan Xia | Projects
       <div class="pj-subtitle">Preliminary Highlights</div>
       <div class="content">
         <ul>
-          <li>We asked: Are users depolarized in Reddit Political Discussions? If so, in what form does depolarization manifest, and how does it differ between subreddits?</li>
+          <li>RQ: Are users depolarized in Reddit political discussions? If so, in what form does depolarization manifest, and how does it differ between subreddits?</li>
           <li>We looked at posts on political topics in r/ChangeMyView, r/AskTrumpSupporters, r/AskALiberal, r/AskConservatives, r/askaconservative, r/politics, r/PoliticalDiscussion, etc.
           <li>We tried to develop an analysis pipeline that combines <i>small-scale qualitative reading</i> and <i>large-scale quantitative coding using large language models (LLMs)</i>.</li>
           <li>We found that:
@@ -44,10 +44,10 @@ title: Yan Xia | Projects
       <div class="pj-subtitle">Preliminary Highlights</div>
       <div class="content">
         <ul>
-          <li>Research question: What features of a political conversation on Reddit best predict if a user will get more polarized by it?</li>
-          <li>Data: Triads of <i>comment (C), reply (R), and reply of reply (R2)</i> in r/politics, where the comment (C) and the reply of reply (R2) are posted by the same user, while the comment (C) author and the reply (R) author likely support different political parties given their subreddit participation.</li>
-          <li>Method: Fitting a regression model where the predictors are the <i>comment (C) and reply (R) features (e.g., toxicity, emotions, politeness)</i>, and the outcome is an LLM-produced label of <i>whether the comment (C) author is more polarized at the reply of reply (R2) level</i>.</li>
-          <li>Finding: Comment (C) features seem to be more effective than reply (R) features in predicting user polarization at the reply of reply (R2) level, which suggests that the occurrence of polarization may be more closely related to the characteristics of the <i>polarized</i> user, than to those of the <i>polarizing</i> user.
+          <li><b>RQ</b>: What features of a political conversation on Reddit best predict if a user will get more polarized by it?</li>
+          <li><b>Data</b>: Triads of <i>comment (C), reply (R), and reply of reply (R2)</i> in r/politics, where the comment (C) and the reply of reply (R2) are posted by the same user, while the comment (C) author and the reply (R) author likely support different political parties given their subreddit participation.</li>
+          <li><b>Method</b>: Fitting a regression model where the predictors are the <i>comment (C) and reply (R) features (e.g., toxicity, emotions, politeness)</i>, and the outcome is an LLM-produced label of <i>whether the comment (C) author is more polarized at the reply of reply (R2) level</i>.</li>
+          <li><b>Finding</b>: Comment (C) features seem to be more effective than reply (R) features in predicting user polarization at the reply of reply (R2) level, which suggests that the occurrence of polarization may be more closely related to the characteristics of the <i>polarized</i> user, than to those of the <i>polarizing</i> user.
         </ul>
       </div>
     </div>
