@@ -351,7 +351,7 @@ body {
 }
 
 .design-description-div.earrings {
-  width: 50%;
+  width: 35%;
   float: right;
 }
 
@@ -367,6 +367,15 @@ body {
 
 .design-time.ss {
   width: 100%;
+}
+
+.design-description {
+  width: 100%;
+  float: left;
+  font-size: 85%;
+  color: $dark-color;
+  margin-left: 2%;
+  margin-top: 0px;
 }
 
 .calligraphy-div {
