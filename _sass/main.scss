@@ -303,7 +303,9 @@ body {
 .design.chch {
   display: inline-block;
   float: right;
-  width: 15%;
+  width: 17%;
+  border: 1px solid $border-color;
+  margin-left: 2px;
 }
 
 .design.cxaalto {
@@ -334,6 +336,11 @@ body {
   margin-top: 7.8%;
   margin-bottom: 3px;
   margin-left: 2%;
+}
+
+.design-description-div.chch {
+  width: 38%;
+  float: left;
 }
 
 .design-description-div.ss {
