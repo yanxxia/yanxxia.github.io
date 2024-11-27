@@ -25,6 +25,7 @@ email: yan.xia@aalto.fi
 baseurl: "" # the subpath of your site, e.g. /blog
 domain: yanxxia.github.io
 url: https://yanxxia.github.io # the base hostname & protocol for your site, e.g. http://example.com
+googlescholar_username: OUapt6YAAAAJ
 twitter_username: yanxxia
 github_username: yanxxia
 flickr_username: yanxxia

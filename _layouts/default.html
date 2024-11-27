@@ -15,10 +15,10 @@
     {{ content }}
     <div class="footer-div">
         <p class='copyright'>&copy; 2024 by Yan Xia. Built with <a href="https://jekyllrb.com/">Jekyll</a>.</p>
-        {%- if site.twitter_username -%}
+        {%- if site.googlescholar_username -%}
         <div class='social-media'>
-          <a href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}"><svg class="svg-icon twitter"><use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use></svg> 
-          <span class="username">{{ site.twitter_username| escape }}</span></a>
+          <a href="https://scholar.google.com/citations?user={{ site.googlescholar_username| cgi_escape | escape }}&hl=en"><svg class="svg-icon googlescholar"><use xlink:href="{{ '/assets/minima-social-icons.svg#google_scholar' | relative_url }}"></use></svg> 
+          <span class="username">Yan Xia</span></a>
           </div>
         {%- endif -%}
         {%- if site.github_username -%}
