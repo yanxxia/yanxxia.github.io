@@ -345,38 +345,27 @@ body {
   margin-left: 2%;
 }
 
+.design-description-div {
+  margin-top: 9%;
+  display: inline-block;
+}
+
 .design-description-div.earrings {
   width: 50%;
   float: right;
-  margin-top: 26%;
 }
 
 .design-description-div.tt {
   width: 50%;
   float: left;
-  margin-top: 26%;
 }
 
 .design-description-div.ss {
   width: 38%;
   float: left;
-  margin-top: 26%;
 }
 
 .design-time.ss {
-  width: 100%;
-}
-
-.design-description {
-  width: 70%;
-  float: left;
-  font-size: 85%;
-  color: $dark-color;
-  margin-left: 2%;
-  margin-top: 0px;
-}
-
-.design-description.ss {
   width: 100%;
 }
 
