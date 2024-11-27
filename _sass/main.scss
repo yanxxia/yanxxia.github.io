@@ -302,7 +302,7 @@ body {
 
 .design.earrings {
   float: left;
-  width: 25%;
+  width: 30%;
   border: 1px solid $border-color;
   box-shadow: 2px 2px 6px $border-color;
   margin-right: 4px;
@@ -310,7 +310,7 @@ body {
 
 .design.tt {
   float: right;
-  width: 25%;
+  width: 30%;
   border: 1px solid $border-color;
   box-shadow: 2px 2px 6px $border-color;
 }
@@ -343,6 +343,18 @@ body {
   margin-top: 7.8%;
   margin-bottom: 3px;
   margin-left: 2%;
+}
+
+.design-description-div.earrings {
+  width: 50%;
+  float: right;
+  margin-top: 26%;
+}
+
+.design-description-div.tt {
+  width: 50%;
+  float: left;
+  margin-top: 26%;
 }
 
 .design-description-div.ss {
