@@ -17,13 +17,13 @@
         <p class='copyright'>&copy; 2024 by Yan Xia. Built with <a href="https://jekyllrb.com/">Jekyll</a>.</p>
         {%- if site.googlescholar_username -%}
         <div class='social-media'>
-          <a href="https://scholar.google.com/citations?user={{ site.googlescholar_username| cgi_escape | escape }}&hl=en"><svg class="svg-icon googlescholar"><use xlink:href="{{ '/assets/minima-social-icons.svg#google_scholar' | relative_url }}"></use></svg> 
+          <a href="https://scholar.google.com/citations?user={{ site.googlescholar_username| cgi_escape | escape }}&hl=en"><svg class="svg-icon googlescholar"><use xlink:href="/assets/minima-social-icons/google_scholar.svg"></use></svg> 
           <span class="username">Yan Xia</span></a>
           </div>
         {%- endif -%}
         {%- if site.github_username -%}
         <div class='social-media'><a href="https://github.com/{{ site.github_username| cgi_escape | escape }}">
-          <svg class="svg-icon github"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg> 
+          <svg class="svg-icon github"><use xlink:href="/assets/minima-social-icons/github.svg"></use></svg> 
           <span class="username">{{ site.github_username| escape }}</span></a>
         </div>
         {%- endif -%}
