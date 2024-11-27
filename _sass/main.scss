@@ -293,7 +293,7 @@ body {
   width: 100%;
   float: left;
   margin-top: 2px;
-  margin-bottom: 8px;
+  margin-bottom: 15px;
 }
 
 .design-div.last {
@@ -345,6 +345,7 @@ body {
 }
 
 .design-description-div {
+  margin-top: 9%;
   display: inline-block;
 }
 
@@ -359,13 +360,14 @@ body {
 }
 
 .design-description-div.cxaalto {
-  width: 70%;
+  width: 75%;
   float: right;
 }
 
 .design-description-div.ss {
   width: 38%;
   float: left;
+  margin-top: 10px;
 }
 
 .design-time.ss {
