@@ -15,6 +15,10 @@ body {
   letter-spacing: 0.05px;
 }
 
+b, {
+  font-weight: 700 !important;
+}
+
 // Containers (main)
 .header-div {
   font-family: $header-font-stack;
