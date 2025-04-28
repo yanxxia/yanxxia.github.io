@@ -62,6 +62,8 @@ b, {
   margin-left: 15.5%;
   float: left;
   color: $medium-color;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .pic-div {
@@ -151,6 +153,11 @@ b, {
 
 .content.section-last {
   margin-bottom: 40px;
+}
+
+.content.pub {
+  margin-bottom: 10px;
+  line-height: 110%;
 }
 
 .description {
